@@ -1,0 +1,41 @@
+body {
+    background-color: #c0c0c0;
+}
+
+.Login {
+    padding: 3%;
+    border: solid 1px #c0c0c0;
+    box-shadow: black 0 0 20px;
+    display: inline-block;
+}
+
+.Top {
+    padding: 4%;
+    border: solid 2px red;
+    display: block;
+    box-shadow: black 0 0 20px;
+}
+
+.Login input {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.Login input[type="email"] {
+    border: solid 5px green;
+}
+.Login input[name="password"] {
+    border: solid 5px red;
+}
+
+.Login button:hover {
+    box-shadow: 0 0 20px blue;
+}
+.Login input:focus {
+    box-shadow: 5px 15px 20px purple;
+    border: none;
+}
+
+.Login input[type="comment"] {
+    height: 150px;
+}

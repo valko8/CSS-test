@@ -1,0 +1,1 @@
+console.log("Szia ez egy üzenet");

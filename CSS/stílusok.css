@@ -1,3 +1,6 @@
+html {
+    background-image: url(/img/wood\ pattern.jpg)  ;
+}
 h2 {
     color: black;
     font-family: fantasy;
@@ -26,7 +29,7 @@ h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 p {
-    color: red;
+    color:  red;
     font-size: 20px;
     text-align: center;
 }
@@ -42,6 +45,12 @@ img {
     box-shadow: 5px 5px 10px black;
 }
 .div {
-    background-color: lightgreen;
+    background-color: rgba(0, 0, 0, 0.3);
     margin: 10px;
+    box-shadow: 5px 5px 0 black;
+}
+#img1 {
+    position: absolute;
+    right: 2%;
+    top: 2%;
 }
